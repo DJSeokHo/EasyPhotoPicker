@@ -18,7 +18,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.swein.easyphotopicker'
                 artifactId = 'EasyPhotoPicker'
-                version = '1.0.0'
+                version = '1.1.0'
             }
             // Creates a Maven publication called “debug”.
 //            debug(MavenPublication) {
@@ -27,7 +27,7 @@ afterEvaluate {
 //
 //                groupId = 'com.swein.easyphotopicker'
 //                artifactId = 'EasyPhotoPicker'
-//                version = '1.0.0'
+//                version = '1.1.0'
 //            }
         }
     }
@@ -41,7 +41,7 @@ android {
         minSdk 23
         targetSdk 31
         versionCode 1
-        versionName "1.0"
+        versionName "1.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
